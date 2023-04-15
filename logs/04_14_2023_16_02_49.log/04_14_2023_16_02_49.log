@@ -1,0 +1,4 @@
+[ 2023-04-14 16:02:51,730 ] 23 root - INFO - Data ingestion started
+[ 2023-04-14 16:02:51,934 ] 26 root - INFO - data reading is done
+[ 2023-04-14 16:02:53,220 ] 29 root - INFO - Train_test_split started
+[ 2023-04-14 16:02:54,502 ] 33 root - INFO - Data ingestion is completed

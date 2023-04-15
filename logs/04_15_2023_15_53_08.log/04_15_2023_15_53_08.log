@@ -1,0 +1,23 @@
+[ 2023-04-15 15:53:09,527 ] 24 root - INFO - Data ingestion started
+[ 2023-04-15 15:53:09,746 ] 27 root - INFO - data reading is done
+[ 2023-04-15 15:53:11,211 ] 30 root - INFO - Train_test_split started
+[ 2023-04-15 15:53:12,707 ] 34 root - INFO - Data ingestion is completed
+[ 2023-04-15 15:53:12,933 ] 61 root - INFO - Training data is       id  carat        cut color clarity  depth  table     x     y     z  price
+0  68540   0.90  Very Good     I     SI1   60.8   61.0  6.29  6.24  3.80   3534
+1  50214   0.90    Premium     G     SI1   62.0   60.0  6.13  6.09  3.79   3730
+2   6195   0.30      Ideal     G      IF   62.3   54.0  4.32  4.30  2.69    895
+3  12929   0.71  Very Good     E     SI2   62.8   59.0  5.68  5.71  3.58   2079
+4  77113   1.00  Very Good     G    VVS1   59.4   60.0  6.46  6.55  3.85   8257
+[ 2023-04-15 15:53:12,946 ] 62 root - INFO - Test data is        id  carat      cut color clarity  depth  table     x     y     z  price
+0  141583   1.21    Ideal     G     VS1   61.3   56.0  6.90  6.87  4.21   9253
+1   91162   0.40    Ideal     E     VS2   62.4   57.0  4.68  4.75  2.94    933
+2  101884   1.18    Ideal     H     VS1   62.2   55.0  6.79  6.84  4.24   7633
+3   31356   0.23  Premium     F    VVS2   61.8   59.0  3.88  3.91  2.43    530
+4  122421   0.51    Ideal     I    VVS1   61.5   56.0  5.16  5.19  3.18   1695
+[ 2023-04-15 15:53:12,946 ] 63 root - INFO - Obtaining preprocessing object
+[ 2023-04-15 15:53:12,946 ] 28 root - INFO - Data transformation has started
+[ 2023-04-15 15:53:12,946 ] 38 root - INFO - Pipeline Initiated
+[ 2023-04-15 15:53:13,307 ] 85 root - INFO - pickle file saved
+[ 2023-04-15 15:53:13,309 ] 19 root - INFO - Splitting Dependent and Independent variables from train and test data
+[ 2023-04-15 15:53:13,963 ] 31 root - INFO - Model Report : {'linear_regression': 0.9368336684275462, 'ridge': 0.9368353087582859, 'lasso': 0.9368051681865762, 'elaticnet': 0.8551202122825221}
+[ 2023-04-15 15:53:13,967 ] 44 root - INFO - Best Model Found , Model Name : ridge , R2 Score : 0.9368353087582859
